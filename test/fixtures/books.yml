@@ -1,0 +1,55 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+
+one:
+  name: BOOKNAME
+  describe: book-describe
+  author: author
+  isbn: KAHSKDKJ2332H1KAFA
+  status: 0
+  issue_at: 2020-10-01
+  purchase_at: 2020-11-01
+  rent: 10
+
+one_copy:
+  name: BOOKNAME
+  describe: book-describe
+  author: author
+  isbn: KAHSKDKJ2332H1KAFA
+  status: 0
+  issue_at: 2020-10-01
+  purchase_at: 2020-11-01
+  rent: 10
+
+two:
+  name: BOOKNAME-1
+  describe: book-describe-1
+  author: author-1
+  isbn: KAHSKDKJ2332H1KAFA-1
+  status: 0
+  issue_at: 2020-10-01
+  purchase_at: 2020-11-01
+  rent: 20
+
+three:
+  name: BOOKNAME-2
+  describe: book-describe-2
+  author: author-2
+  isbn: KAHSKDKJ2332H1KAFA-2
+  status: 0
+  issue_at: 2020-10-01
+  purchase_at: 2020-11-01
+  rent: 1
+
+four:
+  name: BOOKNAME-3
+  describe: book-describe-3
+  author: author-3
+  status: 0
+  issue_at: 2020-10-01
+  purchase_at: 2020-11-01
+  rent: 1

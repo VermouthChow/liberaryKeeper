@@ -10,6 +10,8 @@ gem 'will_paginate', '~> 3.1.0'
 
 gem 'i18n'
 
+gem 'simple_command'
+
 # for controller test
 gem 'rails-controller-testing'
 

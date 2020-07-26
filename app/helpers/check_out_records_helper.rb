@@ -1,0 +1,2 @@
+module CheckOutRecordsHelper
+end

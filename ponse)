@@ -1,0 +1,462 @@
+=> [32m#<ActionDispatch::TestResponse:0x00005606934b9f48[0m
+ @cache_control[32m=[0m{[33m:max_age[0m=>[31m[1;31m"[0m[31m0[1;31m"[0m[31m[0m, [33m:private[0m=>[1;36mtrue[0m, [33m:must_revalidate[0m=>[1;36mtrue[0m},
+ @committed[32m=[0m[1;36mfalse[0m,
+ @cv[32m=[0m
+  [32m#<MonitorMixin::ConditionVariable:0x00005606934b9b38[0m
+   @cond[32m=[0m[32m#<Thread::ConditionVariable:0x00005606934b97a0[0m[32m>[0m,
+   @monitor[32m=[0m[32m#<ActionDispatch::TestResponse:0x00005606934b9f48[0m ...[32m>[0m[32m>[0m,
+ @header[32m=[0m
+  {[31m[1;31m"[0m[31mX-Frame-Options[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMEORIGIN[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mX-XSS-Protection[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1; mode=block[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mX-Content-Type-Options[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mnosniff[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mContent-Type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mapplication/json; charset=utf-8[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mETag[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mW/[1;35m\"[0m[31m2869daefade0659af5eee738667267b5[1;35m\"[0m[31m[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mCache-Control[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mmax-age=0, private, must-revalidate[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mX-Request-Id[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31md83eef07-3db0-484c-9c8f-048eaa1c0be8[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mX-Runtime[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0.076227[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mContent-Length[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m698[1;31m"[0m[31m[0m},
+ @mon_count[32m=[0m[1;34m0[0m,
+ @mon_mutex[32m=[0m[32m#<Thread::Mutex:0x00005606934b9e30[0m[32m>[0m,
+ @mon_mutex_owner_object_id[32m=[0m[1;34m47293120499620[0m,
+ @mon_owner[32m=[0m[1;36mnil[0m,
+ @request[32m=[0m
+  [32m#<ActionDispatch::Request:0x00005606934b7798[0m
+   @env[32m=[0m
+    {[31m[1;31m"[0m[31mrack.version[1;31m"[0m[31m[0m=>[[1;34m1[0m, [1;34m3[0m],
+     [31m[1;31m"[0m[31mrack.input[1;31m"[0m[31m[0m=>[32m#<StringIO:0x0000560694372800[0m[32m>[0m,
+     [31m[1;31m"[0m[31mrack.errors[1;31m"[0m[31m[0m=>[32m#<StringIO:0x0000560694372878[0m[32m>[0m,
+     [31m[1;31m"[0m[31mrack.multithread[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mrack.multiprocess[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mrack.run_once[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mREQUEST_METHOD[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mPOST[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mSERVER_NAME[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mwww.example.com[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mSERVER_PORT[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m80[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mQUERY_STRING[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mPATH_INFO[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/api/v1/users/980190962/borrow_books[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mrack.url_scheme[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTPS[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31moff[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mSCRIPT_NAME[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mCONTENT_LENGTH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m41[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mrack.test[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mREMOTE_ADDR[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m127.0.0.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mREQUEST_URI[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/api/v1/users/980190962/borrow_books[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_HOST[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mwww.example.com[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mCONTENT_TYPE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mapplication/x-www-form-urlencoded[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_ACCEPT[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mtext/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_COOKIE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.parameter_filter[1;31m"[0m[31m[0m=>[[33m:password[0m],
+     [31m[1;31m"[0m[31maction_dispatch.redirect_filter[1;31m"[0m[31m[0m=>[],
+     [31m[1;31m"[0m[31maction_dispatch.secret_token[1;31m"[0m[31m[0m=>[1;36mnil[0m,
+     [31m[1;31m"[0m[31maction_dispatch.secret_key_base[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mbdcfc86c0f19edef1b385478f0c0b63bb4bf5316d44badc3509ee609dbe68e1f4f25258d81559455301bfe2649be45feb3aa904ce16468392d706826e8a0b942[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.show_exceptions[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31maction_dispatch.show_detailed_exceptions[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31maction_dispatch.logger[1;31m"[0m[31m[0m=>
+      [32m#<ActiveSupport::Logger:0x00005606936093a8[0m
+       @default_formatter[32m=[0m
+        [32m#<Logger::Formatter:0x0000560693609308[0m @datetime_format[32m=[0m[1;36mnil[0m[32m>[0m,
+       @formatter[32m=[0m
+        [32m#<ActiveSupport::Logger::SimpleFormatter:0x0000560693872720[0m
+         @datetime_format[32m=[0m[1;36mnil[0m,
+         @thread_key[32m=[0m[31m[1;31m"[0m[31mactivesupport_tagged_logging_tags:47293122450320[1;31m"[0m[31m[0m[32m>[0m,
+       @level[32m=[0m[1;34m0[0m,
+       @local_levels[32m=[0m
+        [32m#<Concurrent::Map:0x0000560693609178 entries=0 default_proc=nil>[0m,
+       @logdev[32m=[0m
+        [32m#<Logger::LogDevice:0x00005606936092b8[0m
+         @dev[32m=[0m[32m#<File:/home/elle/文档/liberaryKeeper/log/test.log>[0m,
+         @filename[32m=[0m[1;36mnil[0m,
+         @mon_count[32m=[0m[1;34m0[0m,
+         @mon_mutex[32m=[0m[32m#<Thread::Mutex:0x0000560693609240[0m[32m>[0m,
+         @mon_mutex_owner_object_id[32m=[0m[1;34m47293121186140[0m,
+         @mon_owner[32m=[0m[1;36mnil[0m,
+         @shift_age[32m=[0m[1;36mnil[0m,
+         @shift_period_suffix[32m=[0m[1;36mnil[0m,
+         @shift_size[32m=[0m[1;36mnil[0m[32m>[0m,
+       @progname[32m=[0m[1;36mnil[0m[32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.backtrace_cleaner[1;31m"[0m[31m[0m=>
+      [32m#<Rails::BacktraceCleaner:0x000056069443fd78[0m
+       @filters[32m=[0m
+        [[32m#<Proc:0x000056069443fbe8@/home/elle/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-5.1.7/lib/rails/backtrace_cleaner.rb:14>[0m,
+         [32m#<Proc:0x000056069443fbc0@/home/elle/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-5.1.7/lib/rails/backtrace_cleaner.rb:15>[0m,
+         [32m#<Proc:0x000056069443fb98@/home/elle/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-5.1.7/lib/rails/backtrace_cleaner.rb:16>[0m,
+         [32m#<Proc:0x000056069443e950@/home/elle/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-5.1.7/lib/rails/backtrace_cleaner.rb:29>[0m],
+       @root[32m=[0m[31m[1;31m"[0m[31m/home/elle/文档/liberaryKeeper/[1;31m"[0m[31m[0m,
+       @silencers[32m=[0m
+        [[32m#<Proc:0x000056069443e928@/home/elle/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-5.1.7/lib/rails/backtrace_cleaner.rb:19>[0m][32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.key_generator[1;31m"[0m[31m[0m=>
+      [32m#<ActiveSupport::CachingKeyGenerator:0x00005606935ae9d0[0m
+       @cache_keys[32m=[0m
+        [32m#<Concurrent::Map:0x00005606935ae9a8 entries=3 default_proc=nil>[0m,
+       @key_generator[32m=[0m
+        [32m#<ActiveSupport::KeyGenerator:0x00005606935ae9f8[0m
+         @iterations[32m=[0m[1;34m1000[0m,
+         @secret[32m=[0m
+          [31m[1;31m"[0m[31mbdcfc86c0f19edef1b385478f0c0b63bb4bf5316d44badc3509ee609dbe68e1f4f25258d81559455301bfe2649be45feb3aa904ce16468392d706826e8a0b942[1;31m"[0m[31m[0m[32m>[0m[32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.http_auth_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp authentication[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.signed_cookie_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31msigned cookie[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.encrypted_cookie_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mencrypted cookie[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.encrypted_signed_cookie_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31msigned encrypted cookie[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.cookies_serializer[1;31m"[0m[31m[0m=>[33m:json[0m,
+     [31m[1;31m"[0m[31maction_dispatch.cookies_digest[1;31m"[0m[31m[0m=>[1;36mnil[0m,
+     [31m[1;31m"[0m[31maction_dispatch.routes[1;31m"[0m[31m[0m=>
+      [32m#<ActionDispatch::Routing::RouteSet:0x0000560693592cd0>[0m,
+     [31m[1;31m"[0m[31mROUTES_47293120943720_SCRIPT_NAME[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mORIGINAL_FULLPATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/api/v1/users/980190962/borrow_books[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mORIGINAL_SCRIPT_NAME[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mrack.tempfiles[1;31m"[0m[31m[0m=>[],
+     [31m[1;31m"[0m[31mrack.request.form_hash[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mbook_ids[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m113629430[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m281110143[1;31m"[0m[31m[0m]},
+     [31m[1;31m"[0m[31mrack.request.form_vars[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbook_ids[]=113629430&book_ids[]=281110143[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mrack.request.form_input[1;31m"[0m[31m[0m=>[32m#<StringIO:0x0000560694372800[0m[32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.request_id[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31md83eef07-3db0-484c-9c8f-048eaa1c0be8[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.remote_ip[1;31m"[0m[31m[0m=>
+      [32m#<ActionDispatch::RemoteIp::GetIp:0x00005606943ed9b0[0m
+       @check_ip[32m=[0m[1;36mtrue[0m,
+       @proxies[32m=[0m
+        [[32m#<IPAddr: IPv4:127.0.0.1/255.255.255.255>[0m,
+         [32m#<IPAddr: IPv6:0000:0000:0000:0000:0000:0000:0000:0001/ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff>[0m,
+         [32m#<IPAddr: IPv6:fc00:0000:0000:0000:0000:0000:0000:0000/fe00:0000:0000:0000:0000:0000:0000:0000>[0m,
+         [32m#<IPAddr: IPv4:10.0.0.0/255.0.0.0>[0m,
+         [32m#<IPAddr: IPv4:172.16.0.0/255.240.0.0>[0m,
+         [32m#<IPAddr: IPv4:192.168.0.0/255.255.0.0>[0m],
+       @req[32m=[0m
+        [32m#<ActionDispatch::Request:0x00005606943ed9d8[0m
+         @env[32m=[0m{...},
+         @filtered_env[32m=[0m[1;36mnil[0m,
+         @filtered_parameters[32m=[0m[1;36mnil[0m,
+         @filtered_path[32m=[0m[1;36mnil[0m,
+         @fullpath[32m=[0m[1;36mnil[0m,
+         @ip[32m=[0m[1;36mnil[0m,
+         @method[32m=[0m[1;36mnil[0m,
+         @original_fullpath[32m=[0m[1;36mnil[0m,
+         @port[32m=[0m[1;36mnil[0m,
+         @protocol[32m=[0m[1;36mnil[0m,
+         @remote_ip[32m=[0m[1;36mnil[0m,
+         @request_method[32m=[0m[1;36mnil[0m[32m>[0m[32m>[0m,
+     [31m[1;31m"[0m[31mrack.session[1;31m"[0m[31m[0m=>
+      [32m#<ActionDispatch::Request::Session:0x5606943ed1b8 not yet loaded>[0m,
+     [31m[1;31m"[0m[31mrack.session.options[1;31m"[0m[31m[0m=>
+      [32m#<ActionDispatch::Request::Session::Options:0x00005606943ed168[0m
+       @by[32m=[0m
+        [32m#<ActionDispatch::Session::CookieStore:0x00005606933851b8[0m
+         @app[32m=[0m
+          [32m#<Rack::Head:0x0000560693385208[0m
+           @app[32m=[0m
+            [32m#<Rack::ConditionalGet:0x0000560693385230[0m
+             @app[32m=[0m
+              [32m#<Rack::ETag:0x0000560693385258[0m
+               @app[32m=[0m[32m#<ActionDispatch::Routing::RouteSet:0x0000560693592cd0>[0m,
+               @cache_control[32m=[0m[31m[1;31m"[0m[31mmax-age=0, private, must-revalidate[1;31m"[0m[31m[0m,
+               @no_cache_control[32m=[0m[31m[1;31m"[0m[31mno-cache[1;31m"[0m[31m[0m[32m>[0m[32m>[0m[32m>[0m,
+         @cookie_only[32m=[0m[1;36mtrue[0m,
+         @default_options[32m=[0m
+          {[33m:path[0m=>[31m[1;31m"[0m[31m/[1;31m"[0m[31m[0m,
+           [33m:domain[0m=>[1;36mnil[0m,
+           [33m:expire_after[0m=>[1;36mnil[0m,
+           [33m:secure[0m=>[1;36mfalse[0m,
+           [33m:httponly[0m=>[1;36mtrue[0m,
+           [33m:defer[0m=>[1;36mfalse[0m,
+           [33m:renew[0m=>[1;36mfalse[0m},
+         @key[32m=[0m[31m[1;31m"[0m[31m_liberary_keeper_session[1;31m"[0m[31m[0m,
+         @same_site[32m=[0m[1;36mnil[0m[32m>[0m,
+       @delegate[32m=[0m
+        {[33m:path[0m=>[31m[1;31m"[0m[31m/[1;31m"[0m[31m[0m,
+         [33m:domain[0m=>[1;36mnil[0m,
+         [33m:expire_after[0m=>[1;36mnil[0m,
+         [33m:secure[0m=>[1;36mfalse[0m,
+         [33m:httponly[0m=>[1;36mtrue[0m,
+         [33m:defer[0m=>[1;36mfalse[0m,
+         [33m:renew[0m=>[1;36mfalse[0m}[32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.request.path_parameters[1;31m"[0m[31m[0m=>
+      {[33m:format[0m=>[33m:json[0m,
+       [33m:controller[0m=>[31m[1;31m"[0m[31musers[1;31m"[0m[31m[0m,
+       [33m:action[0m=>[31m[1;31m"[0m[31mborrow_books[1;31m"[0m[31m[0m,
+       [33m:id[0m=>[31m[1;31m"[0m[31m980190962[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31maction_controller.instance[1;31m"[0m[31m[0m=>
+      [32m#<UsersController:0x0000560694701390[0m
+       @_action_has_layout[32m=[0m[1;36mtrue[0m,
+       @_action_name[32m=[0m[31m[1;31m"[0m[31mborrow_books[1;31m"[0m[31m[0m,
+       @_config[32m=[0m{},
+       @_db_runtime[32m=[0m[1;35m4.763432[0m,
+       @_lookup_context[32m=[0m
+        [32m#<ActionView::LookupContext:0x0000560694701020[0m
+         @cache[32m=[0m[1;36mtrue[0m,
+         @details[32m=[0m
+          {[33m:locale[0m=>[[33m:en[0m],
+           [33m:formats[0m=>[[33m:json[0m],
+           [33m:variants[0m=>[],
+           [33m:handlers[0m=>
+            [[33m:raw[0m, [33m:erb[0m, [33m:html[0m, [33m:builder[0m, [33m:ruby[0m, [33m:coffee[0m, [33m:jbuilder[0m]},
+         @details_key[32m=[0m
+          [32m#<Concurrent::Map:0x0000560692a7e380 entries=0 default_proc=nil>[0m,
+         @prefixes[32m=[0m[[31m[1;31m"[0m[31musers[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mapplication[1;31m"[0m[31m[0m],
+         @rendered_format[32m=[0m[33m:json[0m,
+         @view_paths[32m=[0m
+          [32m#<ActionView::PathSet:0x0000560694700e68[0m
+           @paths[32m=[0m
+            [[32m#<ActionView::OptimizedFileSystemResolver:0x0000560694670f48[0m
+              @cache[32m=[0m
+               [32m#<ActionView::Resolver::Cache:0x560694670f20 keys=2 queries=0>[0m,
+              @path[32m=[0m[31m[1;31m"[0m[31m/home/elle/文档/liberaryKeeper/app/views[1;31m"[0m[31m[0m,
+              @pattern[32m=[0m
+               [31m[1;31m"[0m[31m:prefix/:action{.:locale,}{.:formats,}{+:variants,}{.:handlers,}[1;31m"[0m[31m[0m[32m>[0m][32m>[0m[32m>[0m,
+       @_params[32m=[0m
+        <[1;34;4mActionController[0m::[1;34;4mParameters[0m {[31m[1;31m"[0m[31mbook_ids[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m113629430[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m281110143[1;31m"[0m[31m[0m], [31m[1;31m"[0m[31mformat[1;31m"[0m[31m[0m=>[33m:json[0m, [31m[1;31m"[0m[31mcontroller[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31musers[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31maction[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mborrow_books[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m980190962[1;31m"[0m[31m[0m} [35mpermitted[0m: [1;36mfalse[0m>,
+       @_request[32m=[0m
+        [32m#<ActionDispatch::Request:0x00005606943ed0f0[0m
+         @env[32m=[0m{...},
+         @filtered_env[32m=[0m[1;36mnil[0m,
+         @filtered_parameters[32m=[0m
+          {[31m[1;31m"[0m[31mbook_ids[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m113629430[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m281110143[1;31m"[0m[31m[0m],
+           [31m[1;31m"[0m[31mformat[1;31m"[0m[31m[0m=>[33m:json[0m,
+           [31m[1;31m"[0m[31mcontroller[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31musers[1;31m"[0m[31m[0m,
+           [31m[1;31m"[0m[31maction[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mborrow_books[1;31m"[0m[31m[0m,
+           [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m980190962[1;31m"[0m[31m[0m},
+         @filtered_path[32m=[0m[1;36mnil[0m,
+         @fullpath[32m=[0m[31m[1;31m"[0m[31m/api/v1/users/980190962/borrow_books[1;31m"[0m[31m[0m,
+         @headers[32m=[0m
+          [32m#<ActionDispatch::Http::Headers:0x000056069471af70[0m
+           @req[32m=[0m[32m#<ActionDispatch::Request:0x00005606943ed0f0[0m ...[32m>[0m[32m>[0m,
+         @ip[32m=[0m[1;36mnil[0m,
+         @method[32m=[0m[1;36mnil[0m,
+         @original_fullpath[32m=[0m[1;36mnil[0m,
+         @port[32m=[0m[1;36mnil[0m,
+         @protocol[32m=[0m[1;36mnil[0m,
+         @remote_ip[32m=[0m[1;36mnil[0m,
+         @request_method[32m=[0m[31m[1;31m"[0m[31mPOST[1;31m"[0m[31m[0m,
+         @variant[32m=[0m[][32m>[0m,
+       @_response[32m=[0m
+        [32m#<ActionDispatch::Response:0x0000560694701890[0m
+         @cache_control[32m=[0m{},
+         @committed[32m=[0m[1;36mtrue[0m,
+         @cv[32m=[0m
+          [32m#<MonitorMixin::ConditionVariable:0x00005606947015e8[0m
+           @cond[32m=[0m[32m#<Thread::ConditionVariable:0x0000560694701598[0m[32m>[0m,
+           @monitor[32m=[0m[32m#<ActionDispatch::Response:0x0000560694701890[0m ...[32m>[0m[32m>[0m,
+         @header[32m=[0m
+          {[31m[1;31m"[0m[31mX-Frame-Options[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMEORIGIN[1;31m"[0m[31m[0m,
+           [31m[1;31m"[0m[31mX-XSS-Protection[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1; mode=block[1;31m"[0m[31m[0m,
+           [31m[1;31m"[0m[31mX-Content-Type-Options[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mnosniff[1;31m"[0m[31m[0m,
+           [31m[1;31m"[0m[31mContent-Type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mapplication/json; charset=utf-8[1;31m"[0m[31m[0m},
+         @mon_count[32m=[0m[1;34m0[0m,
+         @mon_mutex[32m=[0m[32m#<Thread::Mutex:0x00005606947017c8[0m[32m>[0m,
+         @mon_mutex_owner_object_id[32m=[0m[1;34m47293130083400[0m,
+         @mon_owner[32m=[0m[1;36mnil[0m,
+         @request[32m=[0m
+          [32m#<ActionDispatch::Request:0x00005606943ed0f0[0m
+           @env[32m=[0m{...},
+           @filtered_env[32m=[0m[1;36mnil[0m,
+           @filtered_parameters[32m=[0m
+            {[31m[1;31m"[0m[31mbook_ids[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m113629430[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m281110143[1;31m"[0m[31m[0m],
+             [31m[1;31m"[0m[31mformat[1;31m"[0m[31m[0m=>[33m:json[0m,
+             [31m[1;31m"[0m[31mcontroller[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31musers[1;31m"[0m[31m[0m,
+             [31m[1;31m"[0m[31maction[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mborrow_books[1;31m"[0m[31m[0m,
+             [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m980190962[1;31m"[0m[31m[0m},
+           @filtered_path[32m=[0m[1;36mnil[0m,
+           @fullpath[32m=[0m[31m[1;31m"[0m[31m/api/v1/users/980190962/borrow_books[1;31m"[0m[31m[0m,
+           @headers[32m=[0m
+            [32m#<ActionDispatch::Http::Headers:0x000056069471af70[0m
+             @req[32m=[0m[32m#<ActionDispatch::Request:0x00005606943ed0f0[0m ...[32m>[0m[32m>[0m,
+           @ip[32m=[0m[1;36mnil[0m,
+           @method[32m=[0m[1;36mnil[0m,
+           @original_fullpath[32m=[0m[1;36mnil[0m,
+           @port[32m=[0m[1;36mnil[0m,
+           @protocol[32m=[0m[1;36mnil[0m,
+           @remote_ip[32m=[0m[1;36mnil[0m,
+           @request_method[32m=[0m[31m[1;31m"[0m[31mPOST[1;31m"[0m[31m[0m,
+           @variant[32m=[0m[][32m>[0m,
+         @sending[32m=[0m[1;36mtrue[0m,
+         @sent[32m=[0m[1;36mtrue[0m,
+         @status[32m=[0m[1;34m200[0m,
+         @stream[32m=[0m
+          [32m#<ActionDispatch::Response::Buffer:0x0000560693485400[0m
+           @buf[32m=[0m
+            [[31m[1;31m"[0m[31m{[1;35m\"[0m[31muser[1;35m\"[0m[31m:{[1;35m\"[0m[31mid[1;35m\"[0m[31m:980190962,[1;35m\"[0m[31mname[1;35m\"[0m[31m:[1;35m\"[0m[31mTESTNAME_one[1;35m\"[0m[31m,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mactive[1;35m\"[0m[31m,[1;35m\"[0m[31msn[1;35m\"[0m[31m:[1;35m\"[0m[31m20200202-STDOUT[1;35m\"[0m[31m},[1;35m\"[0m[31mbooks[1;35m\"[0m[31m:[{[1;35m\"[0m[31mid[1;35m\"[0m[31m:113629430,[1;35m\"[0m[31mname[1;35m\"[0m[31m:[1;35m\"[0m[31mBOOKNAME-2[1;35m\"[0m[31m,[1;35m\"[0m[31mdescribe[1;35m\"[0m[31m:[1;35m\"[0m[31mbook-describe-2[1;35m\"[0m[31m,[1;35m\"[0m[31mauthor[1;35m\"[0m[31m:[1;35m\"[0m[31mauthor-2[1;35m\"[0m[31m,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mactive[1;35m\"[0m[31m,[1;35m\"[0m[31mcategory[1;35m\"[0m[31m:null,[1;35m\"[0m[31missueAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-10-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mpurchaseAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-11-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mcurrentCheckOut[1;35m\"[0m[31m:{[1;35m\"[0m[31mid[1;35m\"[0m[31m:980190963,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mlend[1;35m\"[0m[31m,[1;35m\"[0m[31mlendAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-07-26T07:16:50.313Z[1;35m\"[0m[31m,[1;35m\"[0m[31mreturnAt[1;35m\"[0m[31m:null}},{[1;35m\"[0m[31mid[1;35m\"[0m[31m:281110143,[1;35m\"[0m[31mname[1;35m\"[0m[31m:[1;35m\"[0m[31mBOOKNAME-3[1;35m\"[0m[31m,[1;35m\"[0m[31mdescribe[1;35m\"[0m[31m:[1;35m\"[0m[31mbook-describe-3[1;35m\"[0m[31m,[1;35m\"[0m[31mauthor[1;35m\"[0m[31m:[1;35m\"[0m[31mauthor-3[1;35m\"[0m[31m,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mactive[1;35m\"[0m[31m,[1;35m\"[0m[31mcategory[1;35m\"[0m[31m:null,[1;35m\"[0m[31missueAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-10-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mpurchaseAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-11-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mcurrentCheckOut[1;35m\"[0m[31m:{[1;35m\"[0m[31mid[1;35m\"[0m[31m:980190964,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mlend[1;35m\"[0m[31m,[1;35m\"[0m[31mlendAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-07-26T07:16:50.313Z[1;35m\"[0m[31m,[1;35m\"[0m[31mreturnAt[1;35m\"[0m[31m:null}}]}[1;31m"[0m[31m[0m],
+           @closed[32m=[0m[1;36mfalse[0m,
+           @response[32m=[0m[32m#<ActionDispatch::Response:0x0000560694701890[0m ...[32m>[0m,
+           @str_body[32m=[0m[1;36mnil[0m[32m>[0m[32m>[0m,
+       @_response_body[32m=[0m
+        [[31m[1;31m"[0m[31m{[1;35m\"[0m[31muser[1;35m\"[0m[31m:{[1;35m\"[0m[31mid[1;35m\"[0m[31m:980190962,[1;35m\"[0m[31mname[1;35m\"[0m[31m:[1;35m\"[0m[31mTESTNAME_one[1;35m\"[0m[31m,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mactive[1;35m\"[0m[31m,[1;35m\"[0m[31msn[1;35m\"[0m[31m:[1;35m\"[0m[31m20200202-STDOUT[1;35m\"[0m[31m},[1;35m\"[0m[31mbooks[1;35m\"[0m[31m:[{[1;35m\"[0m[31mid[1;35m\"[0m[31m:113629430,[1;35m\"[0m[31mname[1;35m\"[0m[31m:[1;35m\"[0m[31mBOOKNAME-2[1;35m\"[0m[31m,[1;35m\"[0m[31mdescribe[1;35m\"[0m[31m:[1;35m\"[0m[31mbook-describe-2[1;35m\"[0m[31m,[1;35m\"[0m[31mauthor[1;35m\"[0m[31m:[1;35m\"[0m[31mauthor-2[1;35m\"[0m[31m,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mactive[1;35m\"[0m[31m,[1;35m\"[0m[31mcategory[1;35m\"[0m[31m:null,[1;35m\"[0m[31missueAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-10-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mpurchaseAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-11-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mcurrentCheckOut[1;35m\"[0m[31m:{[1;35m\"[0m[31mid[1;35m\"[0m[31m:980190963,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mlend[1;35m\"[0m[31m,[1;35m\"[0m[31mlendAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-07-26T07:16:50.313Z[1;35m\"[0m[31m,[1;35m\"[0m[31mreturnAt[1;35m\"[0m[31m:null}},{[1;35m\"[0m[31mid[1;35m\"[0m[31m:281110143,[1;35m\"[0m[31mname[1;35m\"[0m[31m:[1;35m\"[0m[31mBOOKNAME-3[1;35m\"[0m[31m,[1;35m\"[0m[31mdescribe[1;35m\"[0m[31m:[1;35m\"[0m[31mbook-describe-3[1;35m\"[0m[31m,[1;35m\"[0m[31mauthor[1;35m\"[0m[31m:[1;35m\"[0m[31mauthor-3[1;35m\"[0m[31m,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mactive[1;35m\"[0m[31m,[1;35m\"[0m[31mcategory[1;35m\"[0m[31m:null,[1;35m\"[0m[31missueAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-10-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mpurchaseAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-11-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mcurrentCheckOut[1;35m\"[0m[31m:{[1;35m\"[0m[31mid[1;35m\"[0m[31m:980190964,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mlend[1;35m\"[0m[31m,[1;35m\"[0m[31mlendAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-07-26T07:16:50.313Z[1;35m\"[0m[31m,[1;35m\"[0m[31mreturnAt[1;35m\"[0m[31m:null}}]}[1;31m"[0m[31m[0m],
+       @_routes[32m=[0m[1;36mnil[0m,
+       @_view_context_class[32m=[0m[32m#<Class:0x0000560692a06038>[0m,
+       @_view_renderer[32m=[0m
+        [32m#<ActionView::Renderer:0x00005606929fbf48[0m
+         @cache_hits[32m=[0m{},
+         @lookup_context[32m=[0m
+          [32m#<ActionView::LookupContext:0x0000560694701020[0m
+           @cache[32m=[0m[1;36mtrue[0m,
+           @details[32m=[0m
+            {[33m:locale[0m=>[[33m:en[0m],
+             [33m:formats[0m=>[[33m:json[0m],
+             [33m:variants[0m=>[],
+             [33m:handlers[0m=>
+              [[33m:raw[0m, [33m:erb[0m, [33m:html[0m, [33m:builder[0m, [33m:ruby[0m, [33m:coffee[0m, [33m:jbuilder[0m]},
+           @details_key[32m=[0m
+            [32m#<Concurrent::Map:0x0000560692a7e380 entries=0 default_proc=nil>[0m,
+           @prefixes[32m=[0m[[31m[1;31m"[0m[31musers[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mapplication[1;31m"[0m[31m[0m],
+           @rendered_format[32m=[0m[33m:json[0m,
+           @view_paths[32m=[0m
+            [32m#<ActionView::PathSet:0x0000560694700e68[0m
+             @paths[32m=[0m
+              [[32m#<ActionView::OptimizedFileSystemResolver:0x0000560694670f48[0m
+                @cache[32m=[0m
+                 [32m#<ActionView::Resolver::Cache:0x560694670f20 keys=2 queries=0>[0m,
+                @path[32m=[0m[31m[1;31m"[0m[31m/home/elle/文档/liberaryKeeper/app/views[1;31m"[0m[31m[0m,
+                @pattern[32m=[0m
+                 [31m[1;31m"[0m[31m:prefix/:action{.:locale,}{.:formats,}{+:variants,}{.:handlers,}[1;31m"[0m[31m[0m[32m>[0m][32m>[0m[32m>[0m[32m>[0m,
+       @_view_runtime[32m=[0m[1;35m6.327965998725761[0m,
+       @books[32m=[0m
+        [[32m#<Book:0x0000560694947488[0m
+          id: [1;34m113629430[0m,
+          name: [31m[1;31m"[0m[31mBOOKNAME-2[1;31m"[0m[31m[0m,
+          describe: [31m[1;31m"[0m[31mbook-describe-2[1;31m"[0m[31m[0m,
+          author: [31m[1;31m"[0m[31mauthor-2[1;31m"[0m[31m[0m,
+          isbn: [31m[1;31m"[0m[31mKAHSKDKJ2332H1KAFA-2[1;31m"[0m[31m[0m,
+          status: [31m[1;31m"[0m[31mactive[1;31m"[0m[31m[0m,
+          category: [1;36mnil[0m,
+          issue_at: [1;34;4mThu[0m, [1;34m01[0m [1;34;4mOct[0m [1;34m2020[0m [1;34m00[0m:[1;34m00[0m:[1;34m00[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+          purchase_at: [1;34;4mSun[0m, [1;34m01[0m [1;34;4mNov[0m [1;34m2020[0m [1;34m00[0m:[1;34m00[0m:[1;34m00[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+          deleted_at: [1;36mnil[0m,
+          group_id: [1;36mnil[0m,
+          series_book_id: [1;36mnil[0m,
+          created_at: [1;34;4mSun[0m, [1;34m26[0m [1;34;4mJul[0m [1;34m2020[0m [1;34m07[0m:[1;34m16[0m:[1;34m50[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+          updated_at: [1;34;4mSun[0m, [1;34m26[0m [1;34;4mJul[0m [1;34m2020[0m [1;34m07[0m:[1;34m16[0m:[1;34m50[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+          rent: [1;35m0.1e1[0m[32m>[0m,
+         [32m#<Book:0x0000560694947230[0m
+          id: [1;34m281110143[0m,
+          name: [31m[1;31m"[0m[31mBOOKNAME-3[1;31m"[0m[31m[0m,
+          describe: [31m[1;31m"[0m[31mbook-describe-3[1;31m"[0m[31m[0m,
+          author: [31m[1;31m"[0m[31mauthor-3[1;31m"[0m[31m[0m,
+          isbn: [1;36mnil[0m,
+          status: [31m[1;31m"[0m[31mactive[1;31m"[0m[31m[0m,
+          category: [1;36mnil[0m,
+          issue_at: [1;34;4mThu[0m, [1;34m01[0m [1;34;4mOct[0m [1;34m2020[0m [1;34m00[0m:[1;34m00[0m:[1;34m00[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+          purchase_at: [1;34;4mSun[0m, [1;34m01[0m [1;34;4mNov[0m [1;34m2020[0m [1;34m00[0m:[1;34m00[0m:[1;34m00[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+          deleted_at: [1;36mnil[0m,
+          group_id: [1;36mnil[0m,
+          series_book_id: [1;36mnil[0m,
+          created_at: [1;34;4mSun[0m, [1;34m26[0m [1;34;4mJul[0m [1;34m2020[0m [1;34m07[0m:[1;34m16[0m:[1;34m50[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+          updated_at: [1;34;4mSun[0m, [1;34m26[0m [1;34;4mJul[0m [1;34m2020[0m [1;34m07[0m:[1;34m16[0m:[1;34m50[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+          rent: [1;35m0.1e1[0m[32m>[0m],
+       @marked_for_same_origin_verification[32m=[0m[1;36mfalse[0m,
+       @message[32m=[0m[1;36mnil[0m,
+       @user[32m=[0m
+        [32m#<User:0x000056069474b6c0[0m
+         id: [1;34m980190962[0m,
+         name: [31m[1;31m"[0m[31mTESTNAME_one[1;31m"[0m[31m[0m,
+         sn: [31m[1;31m"[0m[31m20200202-STDOUT[1;31m"[0m[31m[0m,
+         status: [31m[1;31m"[0m[31mactive[1;31m"[0m[31m[0m,
+         deleted_at: [1;36mnil[0m,
+         role_id: [1;36mnil[0m,
+         created_at: [1;34;4mSun[0m, [1;34m26[0m [1;34;4mJul[0m [1;34m2020[0m [1;34m07[0m:[1;34m16[0m:[1;34m50[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+         updated_at: [1;34;4mSun[0m, [1;34m26[0m [1;34;4mJul[0m [1;34m2020[0m [1;34m07[0m:[1;34m16[0m:[1;34m50[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m[32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.request.content_type[1;31m"[0m[31m[0m=>
+      [32m#<Mime::Type:0x0000560692af1268[0m
+       @hash[32m=[0m[1;34m-1551330004438819537[0m,
+       @string[32m=[0m[31m[1;31m"[0m[31mapplication/x-www-form-urlencoded[1;31m"[0m[31m[0m,
+       @symbol[32m=[0m[33m:url_encoded_form[0m,
+       @synonyms[32m=[0m[][32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.request.request_parameters[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31mbook_ids[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m113629430[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m281110143[1;31m"[0m[31m[0m]},
+     [31m[1;31m"[0m[31mrack.request.query_string[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mrack.request.query_hash[1;31m"[0m[31m[0m=>{},
+     [31m[1;31m"[0m[31maction_dispatch.request.query_parameters[1;31m"[0m[31m[0m=>{},
+     [31m[1;31m"[0m[31maction_dispatch.request.parameters[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31mbook_ids[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m113629430[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m281110143[1;31m"[0m[31m[0m],
+       [31m[1;31m"[0m[31mformat[1;31m"[0m[31m[0m=>[33m:json[0m,
+       [31m[1;31m"[0m[31mcontroller[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31musers[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31maction[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mborrow_books[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m980190962[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31maction_dispatch.request.formats[1;31m"[0m[31m[0m=>
+      [[32m#<Mime::Type:0x0000560692af1088[0m
+        @hash[32m=[0m[1;34m4057987542505357142[0m,
+        @string[32m=[0m[31m[1;31m"[0m[31mapplication/json[1;31m"[0m[31m[0m,
+        @symbol[32m=[0m[33m:json[0m,
+        @synonyms[32m=[0m[[31m[1;31m"[0m[31mtext/x-json[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mapplication/jsonrequest[1;31m"[0m[31m[0m][32m>[0m],
+     [31m[1;31m"[0m[31mrack.request.cookie_hash[1;31m"[0m[31m[0m=>{},
+     [31m[1;31m"[0m[31mrack.request.cookie_string[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.cookies[1;31m"[0m[31m[0m=>
+      [32m#<ActionDispatch::Cookies::CookieJar:0x0000560694719878[0m
+       @committed[32m=[0m[1;36mfalse[0m,
+       @cookies[32m=[0m{},
+       @delete_cookies[32m=[0m{},
+       @encrypted[32m=[0m
+        [32m#<ActionDispatch::Cookies::EncryptedCookieJar:0x0000560694719738[0m
+         @encryptor[32m=[0m
+          [32m#<ActiveSupport::MessageEncryptor:0x00005606947193c8[0m
+           @aead_mode[32m=[0m[1;36mfalse[0m,
+           @cipher[32m=[0m[31m[1;31m"[0m[31maes-256-cbc[1;31m"[0m[31m[0m,
+           @digest[32m=[0m[31m[1;31m"[0m[31mSHA1[1;31m"[0m[31m[0m,
+           @secret[32m=[0m
+            [31m[1;31m"[0m[31m[1;35m\xB1[0m[31md[1;35m\x01[0m[31m[1;35m\xD6[0m[31mc[1;35m\xCC[0m[31m[1;35m\xED[0m[31m[1;35m\xEC[0m[31m~[1;35m\x8F[0m[31m[1;35m\x18[0m[31m[1;35m\x17[0m[31m|[1;35m\x89[0m[31m[1;35m\xFE[0m[31m[1;35m\xAD[0m[31m[1;35m\xDE[0m[31m[1;35m\x9D[0m[31mN[1;35m\x00[0m[31mi[1;35m\xC3[0m[31m[1;35m\"[0m[31m%[1;35m\xE2[0m[31m[1;35m\\[0m[31m[1;35m\xDC[0m[31mv[1;35m\x10[0m[31m[1;35m\x89[0m[31mz[1;35m\x04[0m[31m[1;31m"[0m[31m[0m,
+           @serializer[32m=[0m[1;34;4mActiveSupport[0m::[1;34;4mMessageEncryptor[0m::[1;34;4mNullSerializer[0m,
+           @sign_secret[32m=[0m
+            [31m[1;31m"[0m[31m[1;35m\x89[0m[31m[1;35m\x05[0m[31m[1;35m\xC3[0m[31mn[1;35m\b[0m[31m[1;35m\xFB[0m[31mL[1;35m\x19[0m[31m[1;35m\x8E[0m[31m[1;35m\x1D[0m[31m[1;35m\xA3[0m[31m0[1;35m\x82[0m[31m[1;35m\x91[0m[31m[1;35m\xBD[0m[31m9[1;35m\xB6[0m[31m[1;35m\xA9[0m[31m6[1;35m\x18[0m[31m[1;35m\xEB[0m[31m[1;35m\n[0m[31mg[1;35m\xF3[0m[31m[1;35m\xC0[0m[31m1[1;35m\xF6[0m[31m[1;35m\xF7[0m[31m[1;35m\\[0m[31m[1;35m\xDE[0m[31m[1;35m\xD2[0m[31mm[1;35m\xB3[0m[31m8|m[1;35m\xDA[0m[31m6[1;35m\x83[0m[31m[1;35m\x95[0m[31m[1;35m\xF5[0m[31m[1;35m\xFD[0m[31m][1;35m\xFC[0m[31mp[1;35m\x19[0m[31m[1;35m\xE8[0m[31m[1;35m\xBB[0m[31m][1;35m\xD4[0m[31m?[1;35m\t[0m[31m[1;35m\x80[0m[31m[1;35m\xB0[0m[31m7[1;35m\xA5[0m[31m[1;35m\v[0m[31mP[1;35m\x04[0m[31m[1;35m\x7F[0m[31mH~[1;35m\xC1[0m[31m[1;35m\xE0[0m[31m[1;31m"[0m[31m[0m,
+           @verifier[32m=[0m
+            [32m#<ActiveSupport::MessageVerifier:0x00005606947192b0[0m
+             @digest[32m=[0m[31m[1;31m"[0m[31mSHA1[1;31m"[0m[31m[0m,
+             @secret[32m=[0m
+              [31m[1;31m"[0m[31m[1;35m\x89[0m[31m[1;35m\x05[0m[31m[1;35m\xC3[0m[31mn[1;35m\b[0m[31m[1;35m\xFB[0m[31mL[1;35m\x19[0m[31m[1;35m\x8E[0m[31m[1;35m\x1D[0m[31m[1;35m\xA3[0m[31m0[1;35m\x82[0m[31m[1;35m\x91[0m[31m[1;35m\xBD[0m[31m9[1;35m\xB6[0m[31m[1;35m\xA9[0m[31m6[1;35m\x18[0m[31m[1;35m\xEB[0m[31m[1;35m\n[0m[31mg[1;35m\xF3[0m[31m[1;35m\xC0[0m[31m1[1;35m\xF6[0m[31m[1;35m\xF7[0m[31m[1;35m\\[0m[31m[1;35m\xDE[0m[31m[1;35m\xD2[0m[31mm[1;35m\xB3[0m[31m8|m[1;35m\xDA[0m[31m6[1;35m\x83[0m[31m[1;35m\x95[0m[31m[1;35m\xF5[0m[31m[1;35m\xFD[0m[31m][1;35m\xFC[0m[31mp[1;35m\x19[0m[31m[1;35m\xE8[0m[31m[1;35m\xBB[0m[31m][1;35m\xD4[0m[31m?[1;35m\t[0m[31m[1;35m\x80[0m[31m[1;35m\xB0[0m[31m7[1;35m\xA5[0m[31m[1;35m\v[0m[31mP[1;35m\x04[0m[31m[1;35m\x7F[0m[31mH~[1;35m\xC1[0m[31m[1;35m\xE0[0m[31m[1;31m"[0m[31m[0m,
+             @serializer[32m=[0m[1;34;4mActiveSupport[0m::[1;34;4mMessageEncryptor[0m::[1;34;4mNullSerializer[0m[32m>[0m[32m>[0m,
+         @parent_jar[32m=[0m
+          [32m#<ActionDispatch::Cookies::CookieJar:0x0000560694719878[0m ...[32m>[0m[32m>[0m,
+       @request[32m=[0m
+        [32m#<ActionDispatch::Request:0x00005606943ed208[0m
+         @env[32m=[0m{...},
+         @filtered_env[32m=[0m[1;36mnil[0m,
+         @filtered_parameters[32m=[0m[1;36mnil[0m,
+         @filtered_path[32m=[0m[1;36mnil[0m,
+         @fullpath[32m=[0m[1;36mnil[0m,
+         @ip[32m=[0m[1;36mnil[0m,
+         @method[32m=[0m[1;36mnil[0m,
+         @original_fullpath[32m=[0m[1;36mnil[0m,
+         @port[32m=[0m[1;36mnil[0m,
+         @protocol[32m=[0m[1;36mnil[0m,
+         @remote_ip[32m=[0m[1;36mnil[0m,
+         @request_method[32m=[0m[1;36mnil[0m[32m>[0m,
+       @set_cookies[32m=[0m{},
+       @signed_or_encrypted[32m=[0m
+        [32m#<ActionDispatch::Cookies::EncryptedCookieJar:0x0000560694719738[0m
+         @encryptor[32m=[0m
+          [32m#<ActiveSupport::MessageEncryptor:0x00005606947193c8[0m
+           @aead_mode[32m=[0m[1;36mfalse[0m,
+           @cipher[32m=[0m[31m[1;31m"[0m[31maes-256-cbc[1;31m"[0m[31m[0m,
+           @digest[32m=[0m[31m[1;31m"[0m[31mSHA1[1;31m"[0m[31m[0m,
+           @secret[32m=[0m
+            [31m[1;31m"[0m[31m[1;35m\xB1[0m[31md[1;35m\x01[0m[31m[1;35m\xD6[0m[31mc[1;35m\xCC[0m[31m[1;35m\xED[0m[31m[1;35m\xEC[0m[31m~[1;35m\x8F[0m[31m[1;35m\x18[0m[31m[1;35m\x17[0m[31m|[1;35m\x89[0m[31m[1;35m\xFE[0m[31m[1;35m\xAD[0m[31m[1;35m\xDE[0m[31m[1;35m\x9D[0m[31mN[1;35m\x00[0m[31mi[1;35m\xC3[0m[31m[1;35m\"[0m[31m%[1;35m\xE2[0m[31m[1;35m\\[0m[31m[1;35m\xDC[0m[31mv[1;35m\x10[0m[31m[1;35m\x89[0m[31mz[1;35m\x04[0m[31m[1;31m"[0m[31m[0m,
+           @serializer[32m=[0m[1;34;4mActiveSupport[0m::[1;34;4mMessageEncryptor[0m::[1;34;4mNullSerializer[0m,
+           @sign_secret[32m=[0m
+            [31m[1;31m"[0m[31m[1;35m\x89[0m[31m[1;35m\x05[0m[31m[1;35m\xC3[0m[31mn[1;35m\b[0m[31m[1;35m\xFB[0m[31mL[1;35m\x19[0m[31m[1;35m\x8E[0m[31m[1;35m\x1D[0m[31m[1;35m\xA3[0m[31m0[1;35m\x82[0m[31m[1;35m\x91[0m[31m[1;35m\xBD[0m[31m9[1;35m\xB6[0m[31m[1;35m\xA9[0m[31m6[1;35m\x18[0m[31m[1;35m\xEB[0m[31m[1;35m\n[0m[31mg[1;35m\xF3[0m[31m[1;35m\xC0[0m[31m1[1;35m\xF6[0m[31m[1;35m\xF7[0m[31m[1;35m\\[0m[31m[1;35m\xDE[0m[31m[1;35m\xD2[0m[31mm[1;35m\xB3[0m[31m8|m[1;35m\xDA[0m[31m6[1;35m\x83[0m[31m[1;35m\x95[0m[31m[1;35m\xF5[0m[31m[1;35m\xFD[0m[31m][1;35m\xFC[0m[31mp[1;35m\x19[0m[31m[1;35m\xE8[0m[31m[1;35m\xBB[0m[31m][1;35m\xD4[0m[31m?[1;35m\t[0m[31m[1;35m\x80[0m[31m[1;35m\xB0[0m[31m7[1;35m\xA5[0m[31m[1;35m\v[0m[31mP[1;35m\x04[0m[31m[1;35m\x7F[0m[31mH~[1;35m\xC1[0m[31m[1;35m\xE0[0m[31m[1;31m"[0m[31m[0m,
+           @verifier[32m=[0m
+            [32m#<ActiveSupport::MessageVerifier:0x00005606947192b0[0m
+             @digest[32m=[0m[31m[1;31m"[0m[31mSHA1[1;31m"[0m[31m[0m,
+             @secret[32m=[0m
+              [31m[1;31m"[0m[31m[1;35m\x89[0m[31m[1;35m\x05[0m[31m[1;35m\xC3[0m[31mn[1;35m\b[0m[31m[1;35m\xFB[0m[31mL[1;35m\x19[0m[31m[1;35m\x8E[0m[31m[1;35m\x1D[0m[31m[1;35m\xA3[0m[31m0[1;35m\x82[0m[31m[1;35m\x91[0m[31m[1;35m\xBD[0m[31m9[1;35m\xB6[0m[31m[1;35m\xA9[0m[31m6[1;35m\x18[0m[31m[1;35m\xEB[0m[31m[1;35m\n[0m[31mg[1;35m\xF3[0m[31m[1;35m\xC0[0m[31m1[1;35m\xF6[0m[31m[1;35m\xF7[0m[31m[1;35m\\[0m[31m[1;35m\xDE[0m[31m[1;35m\xD2[0m[31mm[1;35m\xB3[0m[31m8|m[1;35m\xDA[0m[31m6[1;35m\x83[0m[31m[1;35m\x95[0m[31m[1;35m\xF5[0m[31m[1;35m\xFD[0m[31m][1;35m\xFC[0m[31mp[1;35m\x19[0m[31m[1;35m\xE8[0m[31m[1;35m\xBB[0m[31m][1;35m\xD4[0m[31m?[1;35m\t[0m[31m[1;35m\x80[0m[31m[1;35m\xB0[0m[31m7[1;35m\xA5[0m[31m[1;35m\v[0m[31mP[1;35m\x04[0m[31m[1;35m\x7F[0m[31mH~[1;35m\xC1[0m[31m[1;35m\xE0[0m[31m[1;31m"[0m[31m[0m,
+             @serializer[32m=[0m[1;34;4mActiveSupport[0m::[1;34;4mMessageEncryptor[0m::[1;34;4mNullSerializer[0m[32m>[0m[32m>[0m,
+         @parent_jar[32m=[0m
+          [32m#<ActionDispatch::Cookies::CookieJar:0x0000560694719878[0m ...[32m>[0m[32m>[0m[32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.request.unsigned_session_cookie[1;31m"[0m[31m[0m=>{}},
+   @filtered_env[32m=[0m[1;36mnil[0m,
+   @filtered_parameters[32m=[0m[1;36mnil[0m,
+   @filtered_path[32m=[0m[1;36mnil[0m,
+   @fullpath[32m=[0m[1;36mnil[0m,
+   @ip[32m=[0m[1;36mnil[0m,
+   @method[32m=[0m[1;36mnil[0m,
+   @original_fullpath[32m=[0m[1;36mnil[0m,
+   @port[32m=[0m[1;36mnil[0m,
+   @protocol[32m=[0m[1;36mnil[0m,
+   @remote_ip[32m=[0m[1;36mnil[0m,
+   @request_method[32m=[0m[1;36mnil[0m[32m>[0m,
+ @response_parser[32m=[0m
+  [32m#<Proc:0x00005606943dbeb8@/home/elle/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/actionpack-5.1.7/lib/action_dispatch/testing/request_encoder.rb:51 (lambda)>[0m,
+ @sending[32m=[0m[1;36mfalse[0m,
+ @sent[32m=[0m[1;36mfalse[0m,
+ @status[32m=[0m[1;34m200[0m,
+ @stream[32m=[0m
+  [32m#<ActionDispatch::Response::Buffer:0x00005606934b9cc8[0m
+   @buf[32m=[0m
+    [[31m[1;31m"[0m[31m{[1;35m\"[0m[31muser[1;35m\"[0m[31m:{[1;35m\"[0m[31mid[1;35m\"[0m[31m:980190962,[1;35m\"[0m[31mname[1;35m\"[0m[31m:[1;35m\"[0m[31mTESTNAME_one[1;35m\"[0m[31m,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mactive[1;35m\"[0m[31m,[1;35m\"[0m[31msn[1;35m\"[0m[31m:[1;35m\"[0m[31m20200202-STDOUT[1;35m\"[0m[31m},[1;35m\"[0m[31mbooks[1;35m\"[0m[31m:[{[1;35m\"[0m[31mid[1;35m\"[0m[31m:113629430,[1;35m\"[0m[31mname[1;35m\"[0m[31m:[1;35m\"[0m[31mBOOKNAME-2[1;35m\"[0m[31m,[1;35m\"[0m[31mdescribe[1;35m\"[0m[31m:[1;35m\"[0m[31mbook-describe-2[1;35m\"[0m[31m,[1;35m\"[0m[31mauthor[1;35m\"[0m[31m:[1;35m\"[0m[31mauthor-2[1;35m\"[0m[31m,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mactive[1;35m\"[0m[31m,[1;35m\"[0m[31mcategory[1;35m\"[0m[31m:null,[1;35m\"[0m[31missueAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-10-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mpurchaseAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-11-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mcurrentCheckOut[1;35m\"[0m[31m:{[1;35m\"[0m[31mid[1;35m\"[0m[31m:980190963,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mlend[1;35m\"[0m[31m,[1;35m\"[0m[31mlendAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-07-26T07:16:50.313Z[1;35m\"[0m[31m,[1;35m\"[0m[31mreturnAt[1;35m\"[0m[31m:null}},{[1;35m\"[0m[31mid[1;35m\"[0m[31m:281110143,[1;35m\"[0m[31mname[1;35m\"[0m[31m:[1;35m\"[0m[31mBOOKNAME-3[1;35m\"[0m[31m,[1;35m\"[0m[31mdescribe[1;35m\"[0m[31m:[1;35m\"[0m[31mbook-describe-3[1;35m\"[0m[31m,[1;35m\"[0m[31mauthor[1;35m\"[0m[31m:[1;35m\"[0m[31mauthor-3[1;35m\"[0m[31m,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mactive[1;35m\"[0m[31m,[1;35m\"[0m[31mcategory[1;35m\"[0m[31m:null,[1;35m\"[0m[31missueAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-10-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mpurchaseAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-11-01T00:00:00.000Z[1;35m\"[0m[31m,[1;35m\"[0m[31mcurrentCheckOut[1;35m\"[0m[31m:{[1;35m\"[0m[31mid[1;35m\"[0m[31m:980190964,[1;35m\"[0m[31mstatus[1;35m\"[0m[31m:[1;35m\"[0m[31mlend[1;35m\"[0m[31m,[1;35m\"[0m[31mlendAt[1;35m\"[0m[31m:[1;35m\"[0m[31m2020-07-26T07:16:50.313Z[1;35m\"[0m[31m,[1;35m\"[0m[31mreturnAt[1;35m\"[0m[31m:null}}]}[1;31m"[0m[31m[0m],
+   @closed[32m=[0m[1;36mfalse[0m,
+   @response[32m=[0m[32m#<ActionDispatch::TestResponse:0x00005606934b9f48[0m ...[32m>[0m,
+   @str_body[32m=[0m[1;36mnil[0m[32m>[0m[32m>[0m

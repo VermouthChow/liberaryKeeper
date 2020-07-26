@@ -1,0 +1,2 @@
+class SeriesBook < ApplicationRecord
+end
