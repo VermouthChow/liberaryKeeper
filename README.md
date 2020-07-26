@@ -1,24 +1,40 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+doc:
 
-Things you may want to cover:
+https://www.showdoc.cc/ElleZh?page_id=5000086977416803
 
-* Ruby version
+## info
 
-* System dependencies
+* Ruby version:  2.6.4
 
-* Configuration
+* Rails version:  5.1.7
 
-* Database creation
+* Database:  postgresql 10.10
 
-* Database initialization
+* Development environment:  Ubuntu 18.04.1
 
-* How to run the test suite
+## start
 
-* Services (job queues, cache servers, search engines, etc.)
+* Clone from github
 
-* Deployment instructions
+* Make sure postgresql is installed
 
-* ...
+* Bundle install
+
+* Update config/database.yml according to your database configure
+
+* Run the database
+
+* `rake db:create` and `rake db:migrate` 
+
+* Run Backlog by `./start.sh/` (need permission) OR `bundle exec puma -C config/puma.rb`
+
+Then you can access it on localhost:3000 
+
+## test
+
+unit test is minitest
+
+* `rake db:test:prepare`
+* use `rails test` to run all
