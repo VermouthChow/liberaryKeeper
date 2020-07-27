@@ -28,7 +28,7 @@ https://www.showdoc.cc/ElleZh?page_id=5000086977416803
 
 * `rake db:create` and `rake db:migrate` 
 
-* Run Backlog by `./start.sh/` (need permission) OR `bundle exec puma -C config/puma.rb`
+* Run by `./start.sh/` (need permission) OR `bundle exec puma -C config/puma.rb`
 
 Then you can access it on localhost:3000 
 
